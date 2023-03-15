@@ -44,7 +44,7 @@ book:
 
 bibliography: text/references.bib
 
-freeze: false
+freeze: true
 
 filters: 
   - lightbox
@@ -63,9 +63,9 @@ format:
     theme: cosmo
     toc: true
     toc-depth: 3
-#  pdf:
-#    documentclass: report
-#    toc: true
-#    toc-depth: 3
-#    lof: true
-#    lot: true
+  # pdf:
+  #   documentclass: report
+  #   toc: true
+  #   toc-depth: 3
+  #   lof: true
+  #   lot: true
