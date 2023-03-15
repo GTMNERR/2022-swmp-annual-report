@@ -1,0 +1,9 @@
+# Results {.unnumbered}
+
+Analyses were conducted in R and RStudio:
+
+```{r}
+#| label: session-info
+#| echo: false
+sessionInfo()
+```
