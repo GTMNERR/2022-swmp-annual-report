@@ -1,4 +1,4 @@
-# Sites {.unnumbered}
+# Sites {#sec-sites}
 
 ## Station Information
 

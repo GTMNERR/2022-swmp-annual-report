@@ -39,7 +39,7 @@ By visiting [Florida Rules](https://www.flrules.org/gateway/ruleno.asp?id=62-302
 
 ## Dissolved Oxygen
 
-All stations experience seasonal patterns in dissolved oxygen with lower values in the warm, summer months (@fig-do). A distinctive jump in dissolved oxygen occurred at all sites during the storm period of Hurricane Ian (September 28 - October 1, 2022) as well as Hurricane Nicole (November 9-11, 2022).
+All stations experience seasonal patterns in dissolved oxygen with lower values in the warm, summer months (@fig-do). A distinctive jump in dissolved oxygen occurred at all sites during the storm period of Hurricane Ian (September 28 - October 1, 2022) as well as Hurricane Nicole (November 9-11, 2022) (See @sec-hurricane-ian and @sec-hurricane-nicole).
 
 ```{r}
 #| label: fig-do
@@ -618,7 +618,7 @@ mult_fig3(site = "PC")
 
 ## Nitrogen
 
-Interpretations of patterns in total nitrogen (TN) and dissolved inorganic nitrogen (DIN) are difficult this year since quite a bit of the values were not able to be calculated (see below). However, there is a pattern in total kjeldahl nitrogen (TKN) at all sites (@fig-tkn-boxplots). At Pine Island, there are very low values between January-March and elevated levels from April-July (@fig-tkn-boxplots-1). This distinctive shift between March and April may likely be in response to the large amounts of rainfall the system experienced in March (@fig-rainfall-2). This response was seen at all the other sites, especially Pellicer Creek, which is also a more brackish site and sensitive to upland freshwater deposition (@fig-tkn-boxplots-2).
+Interpretations of patterns in total nitrogen (TN) and dissolved inorganic nitrogen (DIN) are difficult this year since quite a bit of the values were not able to be calculated (see below). However, there is a pattern in total kjeldahl nitrogen (TKN) at all sites (@fig-tkn-boxplots). At Pine Island, there are very low values between January-March and elevated levels from April-July (@fig-tkn-boxplots-1). This distinctive shift between March and April may likely be in response to the large amounts of rainfall (@sec-rainfall) the system experienced in March (@fig-rainfall-2). This response was seen at all the other sites, especially Pellicer Creek, which is also a more brackish site and sensitive to upland freshwater deposition (@fig-tkn-boxplots-2).
 
 There was enough data in the last quarter of the year at Pine Island to show high TN values in September, which exceeded the threshold, though fell within normal ranges for that month (@fig-tn-boxplots-1). High TN in April at Pellicer Creek, coupled with the high chlorophyll *a* values in this same time, could be a consequence of the large rain the area experienced during March (@fig-rainfall-2; @fig-tn-boxplots-4). 
 

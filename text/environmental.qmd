@@ -23,13 +23,13 @@ load(here('output', 'data', 'MET.Rdata'))
 
 The following includes variables that establish the estuarine setting: rainfall, water temperature, and salinity. These variables are driven primarily by climatic patterns and largely influence water quality condition.
 
-## Rainfall
+## Rainfall {#sec-rainfall}
 
 The simplest way to bin rainfall within a single year is to present the data by quarter since the winter "season" in northeast Florida typically spans across years (December of the previous year through February of the following year). In 2022, the GTM Research Reserve weather station recorded much higher rainfall in the first quarter than the previous five years (@fig-rainfall-1). The majority of this rainfall occurred during the month of March with approximately 200 mm (7.87 in) of rain (@fig-rainfall-2).
 
 The summer months were rather dry with no "extremely wet" days of rainfall (\>30mm) and very few "very wet" days (20-29mm). In fact, mid-July through mid-August saw almost a month with no rainfall (@fig-rainfall-3). Regular rain resumed in late August into September concluding with extreme rainfall during Hurricane Ian (@sec-hurricane-ian), which resulted in the largest amount of monthly rainfall for 2022 occurring in September with 400 mm (15.7 in) of rain.
 
-Even though another tropical cyclone event occurred in November (Hurricane Nicole @sec-hurricane-nicole), the fourth quarter rainfall levels were still within similar amounts to the previous few years (@fig-rainfall-1). The majority of the rainfall in November was associated with Hurricane Nicole and December had the least amount of rain all year, with only 3 days of very little rain (@fig-rainfall-3).
+Even though another tropical cyclone event, Hurricane Nicole (@sec-hurricane-nicole) occurred in November, the fourth quarter rainfall levels were still within similar amounts to the previous few years (@fig-rainfall-1). The majority of the rainfall in November was associated with Hurricane Nicole and December had the least amount of rain all year, with only 3 days of very little rain (@fig-rainfall-3).
 
 ```{r}
 #| label: fig-rainfall
@@ -106,7 +106,7 @@ MET |>
        color = "Amount of Rain")
 ```
 
-## Temperature
+## Temperature {#sec-temperature}
 
 Temperature fluctuations were observed outside of normal ranges several times throughout the year (@fig-range-atemp-1). The most variable ranges occurred in the first quarter of the year and then several distinctive drops in average temperature were observed in the last quarter associated with storm events (Hurricane Ian, Hurricane Nicole, and nor'easters).
 
@@ -167,7 +167,7 @@ historical_daily_range(fm, param = 'temp', target_yr = 2022)
 historical_daily_range(pc, param = 'temp', target_yr = 2022)
 ```
 
-## Salinity
+## Salinity {#sec-sal}
 
 The heavy rainfall in March 2022 and the rainfall associated with Hurricanes Ian and Nicole in late September and November 2022 was evident in the drastic drops in salinity at all stations (@fig-range-sal), with the greatest impact occurring at the shallowest site, Pellicer Creek, which is also the most sensitive to the effect of runoff (@fig-range-sal-4). Due to a lack of rain the late spring/early summer (only 12 days of rain between May 1 and July 1), many of the sites had very high salinities, particularly Pine Island (@fig-range-sal-1). The rainy periods throughout the year are observable in the salinity data collected in Pellicer Creek with distinct drops in salinity observed during each rain period (March-April, May, early July, late Aug-October)(@fig-rainfall-3; @fig-range-sal-4).
 
