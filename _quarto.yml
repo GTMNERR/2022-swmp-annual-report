@@ -28,8 +28,8 @@ book:
   appendices: 
     - text/a1-cmecs.qmd
     
-  site-url: https://GTMNERR.github.io/swmp-quarter-report
-  repo-url: https://github.com/GTMNERR/swmp-quarter-report
+  site-url: https://GTMNERR.github.io/2022-swmp-annual-report
+  repo-url: https://github.com/GTMNERR/2022-swmp-annual-report
   repo-actions: [edit, source, issue]
   search: true
   favicon: images/friends-logo.png
@@ -56,7 +56,7 @@ execute:
   warning: false
   error: false
 
-link-external-newwindow: true
+link-external-newwindow: false
 
 format:
   html:
