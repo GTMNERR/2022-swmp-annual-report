@@ -2,14 +2,19 @@
 
 This open source report provides a baseline summary of the three longest running components of the System-Wide Monitoring Program (SWMP) at the Guana Tolomato Matanzas National Estuarine Research Reserve: continuous water quality, discrete water quality, and weather through 2022.
 
+## Summary {.unnumbered}
+
+Rainfall patterns this year drove water quality patterns at all stations. Large rainfall events in March, May, and in the fall with Hurricanes Ian and Nicole resulted in low air temperatures, rising water temperatures, and drops in salinity. Late spring through the summer months had very little rain, which drove up salinity and chlorophyll *a* levels at all sites. Chlorophyll *a* was especially high at Pine Island, in which record high monthly chlorophyll *a* values were observed for several months. This site also had an annual geometric mean of chlorophyll *a* over the state threshold value of 6.6 $\mu$g/L for the second year in the record (2002-2022).
+
+Hurricanes Ian and Nicole brought lots of rainfall and oxygenated water into the entire GTM estuary along with high water levels.
+
 # Citation {.unnumbered}
 
-Dunnigan, S., K. Petrinec, J.S. Tanner, and N. Dix. 2023. Guana Tolomato Matanzas National Estuarine Research Reserve 2022 Annual Weather and Water Quality Monitoring Summary Report. Guana Tolomato Matanzas National Estuarine Research Reserve, Ponte Vedra Beach, FL
+Dunnigan, S., K. Petrinec, J.S. Tanner, and N. Dix. 2023. Guana Tolomato Matanzas National Estuarine Research Reserve 2022 Annual System-Wide Monitoring Program Report. Guana Tolomato Matanzas National Estuarine Research Reserve, Ponte Vedra Beach, FL
 
 ```{=openxml}
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
-
 ::: callout-important
 This report is will be updated in July 2023 after the collected data has undergone the secondary annual quality assurance and quality control (QAQC) process. For more information on the SWMP QAQC process, please visit <http://cdmo.baruch.sc.edu/data/qaqc.cfm>.
 :::

@@ -38,9 +38,9 @@ book:
 
   page-footer:
       left: |
-        The data used in this report was last updated in February 2022.
+        Built with <a href="https://quarto.org/">Quarto</a> with data last updated in February 2022.
       right: |
-        Built with <a href="https://quarto.org/">Quarto</a>.
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License.</a>.</a>
 
 bibliography: text/references.bib
 
