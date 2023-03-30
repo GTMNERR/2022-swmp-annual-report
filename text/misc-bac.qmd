@@ -22,6 +22,13 @@ The highest values in dissolved organic carbon (DOC) are observed at Pellicer Cr
 ```{r}
 #| label: fig-doc-boxplots
 #| echo: false
+#| fig-cap: Historical monthly dissolved organic carbon at each SWMP water quality station with current year monthly value overlaid in red.
+#| fig.subcap:
+#|    - "Pine Island"
+#|    - "San Sebastian"
+#|    - "Fort Matanzas"
+#|    - "Pellicer Creek"
+#| layout-ncol: 2
 
 boxplot_currentyear(station = "gtmpinut", 
                      param = doc, 
