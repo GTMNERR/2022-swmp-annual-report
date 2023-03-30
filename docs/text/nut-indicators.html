@@ -104,7 +104,7 @@ div.csl-indent {
     <div class="sidebar-title mb-0 py-0">
       <a href="../">2022 Annual System-Wide Monitoring Program (SWMP) Report</a> 
         <div class="sidebar-tools-main tools-wide">
-    <a href="https://github.com/GTMNERR/swmp-quarter-report" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
+    <a href="https://github.com/GTMNERR/2022-swmp-annual-report" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
     <a href="" title="Share" id="sidebar-tool-dropdown-0" class="sidebar-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-share"></i></a>
     <ul class="dropdown-menu" aria-labelledby="sidebar-tool-dropdown-0">
         <li>
@@ -243,7 +243,7 @@ div.csl-indent {
   <li><a href="#orthophosphate" id="toc-orthophosphate" class="nav-link" data-scroll-target="#orthophosphate"> <span class="header-section-number">5.4.2</span> Orthophosphate</a></li>
   </ul></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/GTMNERR/swmp-quarter-report/edit/main/text/nut-indicators.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/GTMNERR/swmp-quarter-report/blob/main/text/nut-indicators.qmd" class="toc-action">View source</a></p><p><a href="https://github.com/GTMNERR/swmp-quarter-report/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/GTMNERR/2022-swmp-annual-report/edit/main/text/nut-indicators.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/GTMNERR/2022-swmp-annual-report/blob/main/text/nut-indicators.qmd" class="toc-action">View source</a></p><p><a href="https://github.com/GTMNERR/2022-swmp-annual-report/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -371,8 +371,8 @@ Access the Standards
 <p></p><figcaption class="figure-caption">Figure 5.3: Historical monthly chlorophyll a at each SWMP water quality station with current year monthly value overlaid in red. Horizontal dashed blue line indicates the state threshold, as found in F.A.C 62-302.530.</figcaption><p></p>
 </figure>
 </div>
-<p>San Sebastian also had the highest chlorophyll observed in January and February of this year compared to the same months in all previous years (6.85 and 5.6 <span class="math inline">\(\mu\)</span>g/L, respectively; <a href="#fig-chla-boxplots-2">Figure&nbsp;<span>5.3 (b)</span></a>). High chlorophyll <em>a</em> at all stations in January are likely due to uncharacteristically high temperatures that month (<a href="environmental.html#fig-range-temp">Figure&nbsp;<span>4.3</span></a>). San Sebastian and Pellicer Creek continued to see high chlorophyll at those sites (<a href="#fig-chla-agm-2">Figure&nbsp;<span>5.4 (b)</span></a>; <a href="#fig-chla-agm-4">Figure&nbsp;<span>5.4 (d)</span></a>).</p>
-<p>Interestingly, though much higher seasonal chlorophyll was observed at Fort Matanzas in the first quarter, August was much lower than average (<a href="#fig-chla-boxplots-3">Figure&nbsp;<span>5.3 (c)</span></a>). Fort Matanzas also did not have high annual mean chlorophyll (<a href="#fig-chla-agm-3">Figure&nbsp;<span>5.4 (c)</span></a>). It continues to be a station with observed regularly with low chlorophyll <em>a</em>. Values were much lower (some even below threshold levels) at all sites in the last quarter of the year.</p>
+<p>San Sebastian also had the highest chlorophyll observed in January and February of this year compared to the same months in all previous years (6.85 and 5.6 <span class="math inline">\(\mu\)</span>g/L, respectively; <a href="#fig-chla-boxplots-2">Figure&nbsp;<span>5.3 (b)</span></a>). High chlorophyll <em>a</em> at all stations in January was likely due to high temperatures in the early part of that month (<a href="environmental.html#fig-range-temp">Figure&nbsp;<span>4.3</span></a>). San Sebastian and Pellicer Creek continued to see high chlorophyll at those sites (<a href="#fig-chla-agm-2">Figure&nbsp;<span>5.4 (b)</span></a>; <a href="#fig-chla-agm-4">Figure&nbsp;<span>5.4 (d)</span></a>).</p>
+<p>Although much higher seasonal chlorophyll was observed at Fort Matanzas in the first quarter, August was much lower than average (<a href="#fig-chla-boxplots-3">Figure&nbsp;<span>5.3 (c)</span></a>). Fort Matanzas also did not have high annual mean chlorophyll (<a href="#fig-chla-agm-3">Figure&nbsp;<span>5.4 (c)</span></a>). It continues to be a station with observed regularly with low chlorophyll <em>a</em>. Values were much lower (some even below threshold levels) at all sites in the last quarter of the year.</p>
 <div id="fig-chla-agm" class="cell quarto-layout-panel">
 <figure class="figure">
 <div class="quarto-layout-row quarto-layout-valign-top">
@@ -764,20 +764,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return popup.innerHTML;
     });
   }
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp(/https:\/\/GTMNERR\.github\.io\/swmp-quarter-report/);
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
-    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-          // target, if specified
-          link.setAttribute("target", "_blank");
-      }
-    }
 });
 </script>
 <nav class="page-navigation">
@@ -795,11 +781,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">The data used in this report was last updated in February 2022.</div>   
-    <div class="nav-footer-right">Built with <a href="https://quarto.org/">Quarto</a>.</div>
+    <div class="nav-footer-left">Built with <a href="https://quarto.org/">Quarto</a> with data last updated in February 2022.</div>   
+    <div class="nav-footer-right"><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"></a>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License.</a>.</div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"loop":true,"selector":".lightbox","descPosition":"bottom","openEffect":"zoom","closeEffect":"zoom"});</script>
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","openEffect":"zoom","closeEffect":"zoom","loop":true,"descPosition":"bottom"});</script>
 
 
 
