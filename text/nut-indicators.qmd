@@ -163,7 +163,7 @@ boxplot_currentyear(station = "gtmpcnut",
 
 San Sebastian also had the highest chlorophyll observed in January and February of this year compared to the same months in all previous years (6.85 and 5.6 $\mu$g/L, respectively; @fig-chla-boxplots-2). High chlorophyll *a* at all stations in January was likely due to high temperatures in the early part of that month (@fig-range-temp). San Sebastian and Pellicer Creek continued to see high chlorophyll at those sites (@fig-chla-agm-2; @fig-chla-agm-4).
 
-Although much higher seasonal chlorophyll was observed at Fort Matanzas in the first quarter, August was much lower than average (@fig-chla-boxplots-3). Fort Matanzas also did not have high annual mean chlorophyll (@fig-chla-agm-3). It continues to be a station with observed regularly with low chlorophyll *a*. Values were much lower (some even below threshold levels) at all sites in the last quarter of the year.
+Although much higher seasonal chlorophyll was observed at Fort Matanzas in the first quarter, August was much lower than average (@fig-chla-boxplots-3). Fort Matanzas also did not have high annual mean chlorophyll (@fig-chla-agm-3). It continues to be a station with observed regularly with low chlorophyll *a*. 
 
 ```{r}
 #| label: fig-chla-agm
