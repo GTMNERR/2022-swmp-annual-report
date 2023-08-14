@@ -1,3 +1,8 @@
+---
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
 # Environmental {#sec-environmental}
 
 ```{r}
@@ -61,12 +66,13 @@ MET |>
   filter(datetimestamp > '2022-01-01 00:15') %>%
   mutate(date = as.Date(datetimestamp),
          month = lubridate::month(date, label = T)) %>% 
-  # group_by(month) %>%
-  # summarise(sum = sum(totprcp, na.rm = T)) %>%
+  group_by(month) %>%
+  summarise(sum = sum(totprcp, na.rm = T)) %>%
   # summarise(mean = mean(sum)) %>%
-  ggplot() +
-  geom_col(aes(x = month, y = totprcp), fill = "#0075AC") +
-  geom_hline(yintercept = 119, size = 2, linetype = "dashed", color = "grey50") +
+  ggplot(aes(x = month, y = sum)) +
+  geom_col(fill = "#0075AC") +
+  geom_hline(yintercept = 119.275, size = 2, linetype = "dashed", color = "grey50") +
+  geom_text(aes(label = sum), vjust = 1.5, color = "white", size = 3.5) +
   scale_y_continuous(expand = c(0,0)) +
   theme_classic() +
   theme(axis.text = element_text(color = "black"),
@@ -112,7 +118,7 @@ Temperature fluctuations were observed outside of normal ranges several times th
 
 Freezing temperatures are of great interest in northeast Florida because the region is a climatic transition zone experiencing a shift in foundational vegetation species associated with temperature [@zomlefer2006; @williams2014; @rodriguez2016; @cavanaugh2019]. Salt marsh grasses are out-competed by mangrove trees/shrubs in the absence of freezes, which limit mangrove persistence (@marsh). Mangrove coverage has continued to increase throughout Northeast Florida from an estimated four acres in 1990 to almost 3,000 acres in 2014 [@dix2021].
 
-![Mangroves and salt marsh in wetlands near Washington Oaks Gardens State Park and Matanzas State Forest in St. Augustine, Florida.](/images/2020-washington-oaks-mangrove-saltmarsh-dunnigan.jpg){#marsh fig-align="center"}
+![Mangroves and salt marsh in wetlands near Washington Oaks Gardens State Park and Matanzas State Forest in St. Augustine, Florida.](/images/2020-washington-oaks-mangrove-saltmarsh-dunnigan.jpg){#marsh}
 
 Cavanaugh et al. [-@cavanaugh2013] observed an ecological threshold of -4 °C, where mangrove cover decreased in years that experienced temperatures below -4 °C. Prior to this year, temperatures at the weather station only fell below -4 °C on two days: January 24, 2003(for 6.5 hours, the longest duration below this threshold) and December 14, 2010. This year, temperatures fell below -4°C early on the morning of December 25th for 3 hours (@fig-range-atemp-2).
 
