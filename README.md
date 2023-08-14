@@ -8,6 +8,8 @@ Rainfall patterns this year drove water quality patterns at all stations. Large 
 
 Hurricanes Ian and Nicole brought lots of rainfall and oxygenated water into the entire GTM estuary along with high water levels. Observing potential recovery within two weeks after the storm revealed that many sites did return to pre-storm values or ranges during both events. Seasonal "king tide" events continue to make hurricane impacts during the fall difficult to interpret for "recovery" as these king tides bring higher than high tides into northeast Florida.
 
+Prior to this year, temperatures at the weather station only fell below -4 °C on two days: January 24, 2003 (for 6.5 hours, the longest duration below this threshold) and December 14, 2010. This year, temperatures fell below -4°C early on the morning of December 25th for 3 hours.
+
 ## Suggested Citation
 
 Dunnigan, S., K. Petrinec, J.S. Tanner, and N. Dix. 2023. Guana Tolomato Matanzas National Estuarine Research Reserve Annual System-Wide Monitoring Program Report. Guana Tolomato Matanzas National Estuarine Research Reserve, Ponte Vedra Beach, FL
